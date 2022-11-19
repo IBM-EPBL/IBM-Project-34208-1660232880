@@ -6,10 +6,10 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title>Waste Management</title>
-	<link rel="icon" type="image/x-icon" href="/IMAGES/DUMPSTER.png">
+	<link rel="icon" type="image/x-icon" href="IMAGES/DUMPSTER.png">
 	<link href="style.css" rel="stylesheet" type="text/css" />
 	<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
-	<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-db.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-database.js"></script>
 	<script type="module">
 		// Import the functions you need from the SDKs you need
 		import { initializeApp } from "https://www.gstatic.com/firebasejs/9.14.0/firebase-app.js";
@@ -34,24 +34,29 @@
 		const firebase = initializeApp(firebaseConfig);
 		const analytics = getAnalytics(firebase);
 	  </script>
-	<script defer src="db.js"></script>
-</head>
+	<script defer src="database.js"></script>
+	<style>
+			
+	</style>
+	</head>
 
-<body style="background-color:#1F1B24;">
-	<script src="map.js"></script>
-
+<body>
 	
+	
+		
+	<script src="map.js"></script>
 		<div id="map_container">
 			<h1 id="live_location_heading" >LOCATION</h1>
 			<div id="map"></div>
+			
 			<div id="alert_msg">ALERT MESSAGE!</div>
     </div>
 	</div>
 <center><a href="https://www.google.com/maps/place/Perundurai+New+Bus+Stand/@11.273363,77.5778373,17z/data=!3m1!4b1!4m5!3m4!1s0x3ba96d434da63087:0x91b2c203d46019b3!8m2!3d11.273363!4d77.5800313" 
   type="button" class="btn btn-dark">Get Dumpster</a></center>
-    
 	<script
 		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBBLyWj-3FWtCbCXGW3ysEiI2fDfrv2v0Q&callback=myMap"></script></div>
+	
 </body>
 
 </html>

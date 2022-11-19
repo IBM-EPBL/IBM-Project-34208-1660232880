@@ -1,8 +1,18 @@
-html, body 
+html  
 	{
     	height: 100%;
 		margin: 0px;
 		padding:0px;
+	}
+	body
+	{
+    	height: 100%;
+		margin: 0px;
+		padding:0px;
+		background-image:url('https://www.indiaewasterecycler.com/admin/galleryphoto/WAste-Recycler-banner-5.png') ;
+			background-repeat: no-repeat;
+ 			background-attachment: fixed;  
+			background-size: cover;
 	}
 #container
 {
@@ -54,14 +64,14 @@ html, body
 }
 #load_status
 {
-	background-image: url("/Images/KG.png");
+	background-image: url("IMAGES/KG.png");
 	background-repeat: no-repeat;
 	 background-size:     170px; 
 	background-position: left center; 
 }
 #cap_status
 {
-	background-image: url("/Images/dust.png");
+	background-image: url("IMAGES/DUST.png");
 	background-repeat: no-repeat;
 	 background-size: 150px; 
 	background-position: left center; 
@@ -86,7 +96,7 @@ html, body
 	width:86%;
 	margin:2.5% 7%;
 	height:10%;
-   background: url(water.png);
+   background: url('water.png');
     background-repeat: repeat-x;
     animation: datas 10s linear infinite;
       
@@ -95,16 +105,17 @@ html, body
 }
 #map_container
 {
-	height: 100%;
-	width: 100%;
+	height: 76%;
+	width: 76%;
 	display: flex;
 	flex-direction: column;	
+	background-image: url('https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.mypacer.com%2Froutes%2F58565%2Fwalk-trail-perundurai-india&psig=AOvVaw0zs1zZ2MBuDc_hE-eq-Dzq&ust=1668963383009000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCMDn3KLbuvsCFQAAAAAdAAAAABAE');
 }
 #live_location_heading
 {
 	margin-top:10%;
 	text-align: center;
-  color:  GREY;
+  color:  rgb(31, 29, 29);
 }
 #map
 {
@@ -112,20 +123,21 @@ html, body
 	width: 90%;
 	margin-left: 4%;
 	margin-right:4%;
-	border: 10px solid white;
+	border: 10px solid rgb(16, 16, 16);
 	border-radius: 25px;
+	background-image: url("IMAGES/map_1.jpg");
 }
 #alert_msg
 {
 	width:92%;
 	height:20%;
 	margin:4%;
-	background-color:grey;
+	background-color:rgb(186, 238, 174);
 	border-radius: 20px;
 	display: flex;
  	justify-content: center;
   	align-items: center;
-	color: #41af7f;
+	color: #1a2621;
 	font-size: 25px;
 	font-weight: bold;
 }
@@ -134,7 +146,6 @@ html, body
 	margin: 0px;
 	font-size:0px;
 }
-
 
 
 
