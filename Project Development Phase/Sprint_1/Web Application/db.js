@@ -1,6 +1,8 @@
+import "firebase/database";
 const cap_status = document.getElementById('cap_status');
 const alert_msg = document.getElementById('alert_msg');
 
+console.log(firebase);
 var ref = firebase.database().ref();
 
 ref.on("value", function(snapshot) 
